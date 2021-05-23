@@ -7,9 +7,12 @@ pipeline {
           }
         }
     }
-          stage ('test') {
-          steps {
-              echo "helloworld"
-          }
+        stage("first") {
+            script {
+                 foo = "bar"
+            }
+            sh "echo ${foo}"
         }
+    }
+}
     }
