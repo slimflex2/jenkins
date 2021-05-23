@@ -8,9 +8,10 @@ pipeline {
         }
     }
 
-    //     stage ('test') {
-    //       steps {
-    //         echo "this is a test as well"
-    //     }
-    // }
+       stage ('test statge') {
+            steps {
+              echo "helloworld"
+          }
+        } 
+       }
 }
