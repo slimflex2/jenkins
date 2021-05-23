@@ -7,4 +7,9 @@ pipeline {
           }
         }
     }
+    stage ('test') {
+        steps {
+            echo "this is a test as well"
+        }
+    }
 }
